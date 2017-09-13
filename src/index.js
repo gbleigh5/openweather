@@ -19,7 +19,6 @@ ReactDOM.render(
       <Route exact path='/' component={Weather} />
       <Route path="/about" component={About} />
       <Route path="/examples" component={Example} />
-      
     </section>
   </BrowserRouter>,
   document.getElementById('root')
