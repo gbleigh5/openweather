@@ -1,7 +1,7 @@
 import React from 'react';
 // Link is a URL router for different paths defined
 // IndexLink is used to specify the root path
-import {Link, IndexLink} from 'react-router';
+import {Link, IndexLink} from 'react-router-dom';
 
 let Nav = (props) => {
     return (
