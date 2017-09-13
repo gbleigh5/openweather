@@ -2,4 +2,102 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #faf;
+  color: #424242;
+}
+
+.scr-text {
+  width:0!important;
+  height:0!important;
+  position:absolute!important;
+  top:-99999px!important;
+  left:-99999px!important;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.container {}
+
+/** Nav **/
+nav {
+  background-color: #009688;
+  padding: 1.5em;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+
+/** Component Wrap **/
+.comp-wrap {
+  margin: 5% auto;
+}
+.title {
+  margin-left: 45px;
+}
+
+  /** Form **/
+  .weatherform {
+    margin: auto;
+    width: 350px;
+  }
+  .weatherform input {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #607D8B;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .weatherform button {
+    display: block;
+    width: 392px;
+    padding: 12px 20px;
+    border: 2px solid #607D8B;
+    border-radius: 5px;
+    background-color: #424242;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /** result **/
+  .loadingtext {
+    margin: 1em 0;
+    font-style: italic;
+  }
+  .resultWrap {
+    width: 350px;
+  }
+  .result {}
+  .temp-result,
+  .loaction-result {
+    text-decoration: underline;
+  }
+  .temp-result {}
+  .degree-result {}
+  .location-result {
+    text-transform: capitalize;
+  }
+
+/** About **/
+.about-wrap {
+  width: 500px;
+  line-height: 1.5;
+  text-align: justify;
 }
