@@ -1,5 +1,5 @@
 const axios = require('axios');
-const OWM_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=061f24cf3cde2f60644a8240302983f2&units=metric';
+const OWM_URL = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?appid=061f24cf3cde2f60644a8240302983f2&units=metric';
 
 let OWM = {
 
