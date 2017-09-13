@@ -5,7 +5,7 @@ let WeatherMessage = (props) => {
 
   return (
     <div className="resultWrap align-center margin-auto">
-      <p className="result">It is <span className="temp-result">{temp}</span><sup>o</sup>C in <span className="location-result">{loc}</span> </p>
+      <p className="result">It is <span className="temp-result">{temp}<sup>o</sup>C</span> in <span className="location-result">{loc}</span> </p>
     </div>
   );
 

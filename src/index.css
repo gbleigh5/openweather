@@ -86,8 +86,9 @@ nav {
   }
   .result {}
   .temp-result,
-  .loaction-result {
-    text-decoration: underline;
+  .location-result {
+    border-bottom: 1px solid #B71C1C;
+    padding-bottom: 1px;
   }
   .temp-result {}
   .degree-result {}
@@ -100,4 +101,33 @@ nav {
   width: 500px;
   line-height: 1.5;
   text-align: justify;
+}
+
+/** Example **/
+.example-wrap .nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #8D6E63;
+  border-top: 3px solid #BDBDBD;
+  border-bottom: 3px solid #BDBDBD;
+  padding-top: 15px;
+  padding-right: 30px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.example-wrap div {
+  padding: 0 20px;
+}
+
+.example-wrap .topics-nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #BF360C;
+}
+
+.example-wrap .topics-nav a:hover {
+  text-decoration: underline;;
 }
