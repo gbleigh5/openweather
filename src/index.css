@@ -131,3 +131,7 @@ nav {
 .example-wrap .topics-nav a:hover {
   text-decoration: underline;;
 }
+
+.example-wrap .topics-nav .selected {
+  text-decoration: line-through;
+}
