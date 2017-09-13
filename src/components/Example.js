@@ -2,7 +2,8 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  NavLink
 } from 'react-router-dom'
 
 const Home = () => (
@@ -55,9 +56,9 @@ const Example = () => (
   <Router>
     <div className="example-wrap">
       <ul className="nav">
-        <li><Link className="nav-link" to="/">Home</Link></li>
-        <li><Link className="nav-link" to="/about">About</Link></li>
-        <li><Link className="nav-link" to="/topics">Topics</Link></li>
+        <li><NavLink className="nav-link" to="/">Home</NavLink></li>
+        <li><NavLink className="nav-link" to="/about">About</NavLink></li>
+        <li><NavLink className="nav-link" to="/topics">Topics</NavLink></li>
       </ul>
 
       <Route exact path="/" component={Home}/>
